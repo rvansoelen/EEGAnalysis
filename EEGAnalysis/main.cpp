@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "EEGFile.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+
+
+int main() {
+    EEGFile data("/EEGAnalysis/src/DirectDetection_001.csv");
+    
 }
