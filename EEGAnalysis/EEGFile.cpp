@@ -41,7 +41,7 @@ EEGFile::EEGFile(string filename) {
             cout<<"Error Reading Line.\n";
         }
         
-        //c->print();
+        c->printData(); //just to make sure it worked
     }
     if(fin.bad()) {
         cout<<"Error Reading File.\n";
