@@ -31,7 +31,7 @@
 		F49159551B1A923200B4A775 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
 		F49159561B1A92C100B4A775 /* EEGFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EEGFile.cpp; sourceTree = "<group>"; };
 		F49159591B1A92F800B4A775 /* Channel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Channel.cpp; sourceTree = "<group>"; };
-		F491595C1B1A95BC00B4A775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/DirectDetection_001.csv; sourceTree = "<group>"; };
+		F491595E1B1A96E900B4A775 /* DirectDetection_001.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DirectDetection_001.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		F49159531B1A910C00B4A775 /* res */ = {
 			isa = PBXGroup;
 			children = (
-				F491595D1B1A95BC00B4A775 /* DirectDetection_001.csv */,
+				F491595E1B1A96E900B4A775 /* DirectDetection_001.csv */,
 			);
 			name = res;
 			sourceTree = "<group>";
@@ -161,17 +161,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F491595D1B1A95BC00B4A775 /* DirectDetection_001.csv */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F491595C1B1A95BC00B4A775 /* en */,
-			);
-			name = DirectDetection_001.csv;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F49159381B1A8D8200B4A775 /* Debug */ = {

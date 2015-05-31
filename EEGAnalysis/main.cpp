@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <fstream>
 #include "EEGFile.h"
 using namespace std;
 
@@ -14,6 +15,8 @@ using namespace std;
 
 
 int main() {
-    EEGFile data("/EEGAnalysis/src/DirectDetection_001.csv");
+    
+    
+    EEGFile data("DirectDetection_001.csv");
     
 }
